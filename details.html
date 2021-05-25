@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>Quantum Technology Corporation</title>
+  <meta name="description" content="description of the site">
+  <meta name="keywords" content="key 1, key 2, key 3…" />
+
+  <meta name="google" content="notranslate">
+
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.svg"><link href="css/app.css" rel="stylesheet"></head>
+
+<body>
+  <div id="app">
+
+    <header-component></header-component>
+
+    <div class="container">
+      <div class="account my-details">
+        <h2 class="title">My account</h2>
+        <div class="row">
+          <div class="col-lg-3">
+            <ul>
+              <li><a href="orders.html">My orders</a></li>
+              <li><a href="details.html" class="active">My details</a></li>
+              <li><a href="delivery-address.html">My delivery address</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-8 offset-lg-1">
+            <form action="#">
+              <div class="row">
+                <div class="col-lg-6">
+                  <input type="text" placeholder="First name">
+                  <input type="text" placeholder="Address">
+                  <input type="text" placeholder="State/Province">
+                  <input type="text" placeholder="Country">
+                </div>
+                <div class="col-lg-6">
+                  <input type="text" placeholder="Last name">
+                  <input type="text" placeholder="City">
+                  <input type="text" placeholder="ZIP/Postal Code">
+                  <input type="text" placeholder="Phone number">
+                </div>
+              </div>
+              <button type="submit">Save changes</button>
+            </form>
+
+            <form action="#">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="title">Change Password</div>
+
+                  <input type="password" placeholder="Сurrent password" required>
+                  <input type="password" placeholder="New password" required>
+                  <input type="password" placeholder="Confirm password" required>
+
+                  <button type="submit">Save changes</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer-component></footer-component>
+  </div>
+<script src="js/app.js"></script></body>
+
+</html>
